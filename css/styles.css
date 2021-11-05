@@ -7,13 +7,16 @@
 	--second-address-color: #757575;
 	--accent-color: #2196f3;
 	--btn-text-color: #ffffff;
+	--btn-second-text-color: #212121;
 	--btn-color: #2196f3;
+	--btn-second-color: #f5f4fa;
 	--text-color: #757575;
 	--footer-address-color: rgba(255, 255, 255, 0.6);
 }
 
 body {
 	font-family: "Roboto", sans-serif;
+	color: var(--text-color);
 }
 
 .list {
@@ -41,7 +44,7 @@ body {
 /* -------------------------HEADER----------------------------- */
 
 .header-logo {
-	font-family: Raleway;
+	font-family: Raleway, sans-serif;
 	font-weight: 700;
 	font-size: 26px;
 	line-height: 1.19;
@@ -50,7 +53,7 @@ body {
 }
 
 .header-accent {
-	font-family: Raleway;
+	font-family: Raleway, sans-serif;
 	font-weight: 700;
 	font-size: 26px;
 	line-height: 1.19;
@@ -130,7 +133,6 @@ body {
 }
 
 .benefits-text {
-	font-weight: 400;
 	font-size: 14px;
 	line-height: 1.71;
 	letter-spacing: 0.03em;
@@ -169,7 +171,6 @@ body {
 }
 
 .command-text {
-	font-weight: 400;
 	font-size: 16px;
 	line-height: 1.19;
 	text-align: center;
@@ -184,7 +185,7 @@ body {
 }
 
 .footer-logo {
-	font-family: Raleway;
+	font-family: Raleway, sans-serif;
 	font-weight: 700;
 	font-size: 26px;
 	line-height: 1.19;
@@ -193,7 +194,7 @@ body {
 }
 
 .footer-accent {
-	font-family: Raleway;
+	font-family: Raleway, sans-serif;
 	font-weight: 700;
 	font-size: 26px;
 	line-height: 1.19;
@@ -222,4 +223,37 @@ body {
 .footer-address:hover,
 .footer-address:focus {
 	color: var(--accent-color);
+}
+
+/* -------------------------FOOTER----------------------------- */
+
+.portfolio-btn {
+	font-family: inherit;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 1.62;
+	letter-spacing: 0.03em;
+	color: var(--btn-second-text-color);
+	background-color: var(--btn-second-color);
+}
+
+.portfolio-btn:hover,
+.portfolio-btn:focus {
+	color: var(--btn-text-color);
+	background-color: var(--btn-color);
+}
+
+.portfolio-title {
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 2;
+	letter-spacing: 0.06em;
+	color: var(--main-title-color);
+}
+
+.portfolio-text {
+	font-size: 16px;
+	line-height: 1.87;
+	letter-spacing: 0.03em;
+	color: var(--text-color);
 }
