@@ -34,6 +34,10 @@ body {
 	border: 0;
 	clip: rect(0 0 0 0);
 }
+
+.header-list .header-link.current {
+	color: var(--accent-color);
+}
 /* -------------------------HEADER----------------------------- */
 
 .header-logo {
@@ -213,4 +217,9 @@ body {
 	line-height: 1.71;
 	letter-spacing: 0.03em;
 	color: var(--footer-address-color);
+}
+
+.footer-address:hover,
+.footer-address:focus {
+	color: var(--accent-color);
 }
